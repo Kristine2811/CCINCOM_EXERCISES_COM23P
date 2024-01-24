@@ -1,0 +1,6 @@
+myAge <- 18
+if myAge >=18 Then
+OUTPUT “I am allowed to drink alcohol and party all night!”
+ELSE
+OUTPUT “Adults only”
+End If
