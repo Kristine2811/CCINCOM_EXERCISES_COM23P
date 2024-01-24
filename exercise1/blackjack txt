@@ -1,0 +1,34 @@
+START
+
+# Step 1: Understand Rules
+Read rules of blackjack
+
+# Step 2: Learn Basic Strategy
+Memorize basic strategy chart
+
+# Step 3: Card Counting
+Initialize count to 0
+
+# Step 4: Bet Wisely
+Set initial bet amount
+While playing:
+  Update count based on dealt cards
+  If count is favorable:
+    Increase bet
+  Else:
+    Decrease bet or play conservatively
+
+# Step 5: Manage Bankroll
+Set budget for each session
+While playing:
+  If budget is exhausted:
+    Quit the game
+
+# Step 6: Observation
+Pay attention to dealer's upcard
+Adapt strategy based on observed patterns
+
+# Step 7: Practice
+Practice the strategy in a controlled environment
+
+END
