@@ -1,0 +1,24 @@
+function blackjack_algorithm():
+    deal_initial_cards()
+
+    if has_blackjack():
+        player_wins()
+    elif dealer_has_blackjack():
+        player_loses()
+    else:
+        while player_decides_to_hit():
+            player_hits()
+
+        if player_decides_to_double_down():
+            double_down()
+
+        if player_decides_to_split():
+            split_pairs()
+
+        dealer_play()
+
+        determine_winner()
+
+    play_again()
+
+blackjack_algorithm()
